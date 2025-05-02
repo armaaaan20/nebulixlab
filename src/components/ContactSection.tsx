@@ -112,7 +112,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">Email</p>
-                    <p className="text-white">hello@nebuladigital.com</p>
+                    <p className="text-white">hello@nebulixlabs.com</p>
                   </div>
                 </div>
 

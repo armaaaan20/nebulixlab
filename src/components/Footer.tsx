@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2 mb-4">
               <span className="inline-block w-3 h-3 rounded-full bg-nebula-500"></span>
-              <span className="text-xl font-bold text-white">Nebula Digital</span>
+              <span className="text-xl font-bold text-white">NebulixLabs</span>
             </div>
             <p className="text-slate-400">
               Affordable website development and digital marketing solutions for businesses of all sizes.
@@ -127,7 +127,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center pt-8 border-t border-slate-800">
           <p className="text-slate-500 text-sm">
-            &copy; {new Date().getFullYear()} Nebula Digital. All rights reserved.
+            &copy; {new Date().getFullYear()} NebulixLabs. All rights reserved.
           </p>
         </div>
       </div>

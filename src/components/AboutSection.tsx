@@ -28,7 +28,7 @@ const AboutSection = () => {
           </div>
 
           <div className="flex-1 space-y-6 order-1 lg:order-2 animate-fade-in-up">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gradient">About Nebula Digital</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gradient">About NebulixLabs</h2>
             <p className="text-lg text-slate-300">
               We're a team of passionate digital experts committed to helping small and medium businesses thrive online through affordable, high-quality web development and digital marketing solutions.
             </p>
