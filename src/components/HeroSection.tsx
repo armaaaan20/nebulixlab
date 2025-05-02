@@ -63,8 +63,8 @@ const HeroSection = () => {
           <div className="flex-1 w-full rounded-xl overflow-hidden shadow-2xl shadow-nebula-900/30 animate-float">
             <div className="w-full h-[350px] sm:h-[400px] glass-card rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
-                alt="Website Preview" 
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80" 
+                alt="Modern Website Design" 
                 className="w-full h-full object-cover object-center"
                 loading="lazy"
               />

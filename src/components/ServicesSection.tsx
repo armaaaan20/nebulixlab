@@ -10,13 +10,13 @@ interface ServiceCardProps {
 
 const ServiceCard = ({ title, description, icon, delay }: ServiceCardProps) => {
   return (
-    <Card className="glass-card hover:shadow-xl hover:shadow-nebula-900/20 transition-all duration-500 border-nebula-800/50 overflow-hidden group">
+    <Card className="glass-card hover:shadow-xl hover:shadow-nebula-900/20 transition-all duration-500 border-nebula-800/50 overflow-hidden group h-full flex flex-col">
       <div className="absolute inset-0 bg-gradient-to-br from-nebula-900/0 to-nebula-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       <CardHeader>
         <div className="text-3xl mb-4">{icon}</div>
         <CardTitle className="text-xl text-white">{title}</CardTitle>
       </CardHeader>
-      <CardContent>
+      <CardContent className="flex-grow">
         <CardDescription className="text-slate-300">{description}</CardDescription>
       </CardContent>
     </Card>
@@ -68,7 +68,7 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="animate-fade-in-up"
+              className="animate-fade-in-up h-full"
               style={{ animationDelay: `${service.delay}ms` }}
             >
               <ServiceCard
