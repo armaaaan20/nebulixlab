@@ -61,12 +61,14 @@ const HeroSection = () => {
           </div>
 
           <div className="flex-1 w-full rounded-xl overflow-hidden shadow-2xl shadow-nebula-900/30 animate-float">
-            <iframe
-              src="https://www.example.com"
-              title="Website Preview"
-              className="w-full h-[350px] sm:h-[400px] border-0 rounded-xl glass-card"
-              loading="lazy"
-            />
+            <div className="w-full h-[350px] sm:h-[400px] glass-card rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
+                alt="Website Preview" 
+                className="w-full h-full object-cover object-center"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>

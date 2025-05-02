@@ -54,7 +54,7 @@ const Navbar = () => {
             }}
           >
             <span className="inline-block w-3 h-3 rounded-full bg-nebula-500"></span>
-            Nebula Digital
+            NebulixLabs
           </a>
         </div>
 
